@@ -1,0 +1,39 @@
+#about, #aboutt{
+    padding: 5%;
+    padding-top: 0;
+}
+#about .container .main-div,
+#aboutt .container .main-div{
+    box-shadow: 4px 4px 4px rgba(75,75,75,0.5);
+    background-color: rgba(111, 145, 1,0.6);
+     border-radius: 5px;
+}
+
+#about img,
+#aboutt img{
+    box-shadow: 4px 4px 4px rgba(75,75,75,0.5);
+
+}
+#about h1,
+#aboutt h1{
+   
+    color:#6B4315;
+    font-family: 'Niconne',sans-serif !important;
+    word-spacing:10px !important;
+    font-size: 80px !important;
+
+
+}
+#about .about-heading h3,h5,
+#aboutt .about-heading h3,h5{
+    color:#6B4315;
+    font-family: 'Ramabhadra';
+    font-size:30px;
+}
+#about .about-text p,
+#aboutt .about-text p{
+    font-family: 'lato';
+    font-size:20px;
+    
+
+}

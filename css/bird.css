@@ -1,0 +1,86 @@
+    /*        birds       */
+    #birds{
+        display: none;
+      padding-bottom: 5%;
+
+    }
+    #birds .card{
+        border: 1px solid rgb(190, 187, 187);
+        box-shadow: 5px 8px 10px rgb(190, 187, 187);
+        border-radius: 10px 10px 10px 10px ;
+        margin-bottom: 15px;
+        height: 410px;
+        /* border: none; */
+
+      }
+      #birds .card-text{
+        color: #6B4315 !important;
+        font-family: "Ramabhadra";
+        font-size: 22px !important;
+    }
+      
+      #birds .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color:rgba(0, 0, 0,.7);
+        border-radius: 7px 7px 7px 7px ;
+        border: none;
+        
+        
+        }
+
+        #birds .card:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+    font-family: "Lato";
+    }
+    #birds .card-img-top
+    {
+    border-radius: 10px 10px 0px 0px;
+    }
+
+    #birds  .text {
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    
+    }
+   
+    #birds a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    }
+    #birds a:hover{
+        color: white;
+    }
+    #birds .btn{
+      background-color: #6B4315 ;
+
+    }
+  /* #birds  h1{
+    color:#6B4315 ;
+     
+     font-family: "Ramabhdra";
+    } */
+    #birds .overlay p{
+        font-size: 20px;
+    }
+    #birds .tittle {
+      color: black;
+    }

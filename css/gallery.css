@@ -1,0 +1,12 @@
+.gallery{
+    padding: 5% !important;
+    padding-top: 0% !important;
+}
+.gallery h1{
+    font-family: 'Niconne';
+    font-size: 80px !important;
+    color: #6B4315;
+}
+.gallery img{
+    border-radius: 5px;
+}

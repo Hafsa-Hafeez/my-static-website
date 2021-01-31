@@ -1,0 +1,59 @@
+/* #footer-section */
+.page-footer{
+    background-image: url(images/s7.jpg);
+    background-attachment: fixed;
+    background-position:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.footer-full-ctn{
+    background-color: rgba(0,0,0,0.7);
+    
+
+}
+.footer-logo-image img{
+    height: 70px;
+}
+.footer-col{
+    color: white;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+.last-row{
+    border-top: 1px solid rgba(75,75,75,0.5);
+}
+.footer-link{
+      text-decoration: none;
+      color:white;
+}
+
+.page-footer a{
+    text-decoration: none;
+      color:white;   
+}
+
+.footer-social-icon  .footer-link .fa{
+    width: 75px;
+    font-size: 25px;
+}
+.footer-link:hover{
+    color:#6B4315;
+    text-decoration: none;
+}
+.footer-col-heading h4{
+    color:white;
+    font-family: 'Ramabhadra';
+    font-weight: bold;
+    font-size: 30px;
+
+    } 
+
+    .footer-col-content .foottext{
+        font-size: 16px;
+        margin: 0% 1% !important;
+    }
+    .footer-col-content p{
+        font-size: 16px;
+
+    }
